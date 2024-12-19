@@ -1,0 +1,49 @@
+1万次crc-8计算
+
+simulink-crc-8-general
+
+round1：4935ms
+00 00 04 - 00 9D
+00 00 09 - 00 5C
+
+round2：4935ms
+00 00 0B - 00 9E
+00 00 10 - 00 5D
+
+round3：4935ms
+00 00 13 - 00 8A
+00 00 18 - 00 49
+
+平均单次计算耗时：500us
+
+simulink-crc-8-optimized
+
+round1：43959ms
+00 00 04 - 00 D0
+00 00 30 - 00 A7
+
+round2：43959ms
+00 02 14 - 00 DD
+00 03 04 - 00 B4
+
+round2：43958ms
+00 03 0B - 00 EE
+00 03 37 - 00 C4
+
+平均单次计算耗时：5ms
+
+manual-crc-8-bitwise-operation
+
+round1：67ms
+00 00 03 - 00 71
+00 00 03 - 00 B4
+
+round2：67ms
+00 00 0B - 00 7D
+00 00 10 - 00 C0
+
+round3：67ms
+00 00 13 - 00 28
+00 00 18 - 00 6B
+
+平均单次计算耗时：7us
